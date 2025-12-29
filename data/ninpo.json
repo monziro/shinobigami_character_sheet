@@ -1,0 +1,48 @@
+{
+    "schemaVersion": "1.3",
+    "faction": "私立御斎学園",
+    "subFaction": "制限なし",
+    "rank": "制限なし",
+    "ninpo": [
+      {
+        "name": "北斗",
+        "reading": "ほくと",
+        "type": "攻撃忍法",
+        "range": 5,
+        "cost": 1,
+        "skillCategory": "戦術",
+        "specifiedSkill": "野戦術",
+        "tags": ["接近戦", "攻撃"],
+        "description": "接近戦。この攻撃は、現在の【生命力】が自分と同じキャラクターしか目標に選ぶことができない。攻撃が成功すると、目標に2点の接近戦ダメージを与えることができる。",
+        "books": { "title": "基本", "page": 102 },
+        "notes": "詳細は掲載書籍を参照"
+      },
+      {
+        "name": "伏兵",
+        "reading": "ふくへい",
+        "type": "攻撃忍法",
+        "range": 1,
+        "cost": 1,
+        "skillCategory": "戦術",
+        "specifiedSkill": "用兵術",
+        "tags": ["集団戦", "攻撃"],
+        "description": "集団戦。この攻撃の回避判定にはマイナス2の修正がつく。攻撃が成功すると、目標に集団戦ダメージを1点与えることができる。",
+        "books": { "title": "基本", "page": 102 },
+        "notes": "詳細は掲載書籍を参照"
+      },
+      {
+        "name": "仙食",
+        "reading": "せんじき",
+        "type": "サポート忍法",
+        "range": "なし",
+        "cost": "なし",
+        "skillCategory": "戦術",
+        "specifiedSkill": "兵糧術",
+        "tags": ["回復", "サポート"],
+        "description": "自分がシーンプレイヤー時のドラマシーンに使用できる。好きなキャラクターを好きな数だけ目標に選ぶ。指定特技の判定に成功すると、目標の【生命力】を1点回復できる。",
+        "books": { "title": "基本", "page": 102 },
+        "notes": "詳細は掲載書籍を参照"
+      }
+    ]
+  }
+  
